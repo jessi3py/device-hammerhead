@@ -330,7 +330,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # for Gecko
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.moz.has_home_button=0 \
-    ro.moz.nfc.enabled=true
+    ro.moz.nfc.enabled=true \
+    ro.moz.ril.0.network_types=gsm,wcdma,lte
 
 PRODUCT_PACKAGES += \
     nfcd
